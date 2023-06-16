@@ -1,0 +1,242 @@
+/* GENERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+h1,h2,h3,h4 {
+  color: #444;
+}
+h1 {
+  font-family: "Crete Round", serif;
+  font-size: 45px;
+}
+h2 {
+  font-size: 55px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 24px;
+}
+p {
+  line-height: 20px;
+  color: #777;
+}
+ul {
+  list-style: none; /* enlève les points des listes */
+}
+a {
+  text-decoration: none; /* enleve le bleu soulign" sur les elements anchor */
+  color: #444;
+}
+.clear{
+    clear: both;
+}
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+.orange {
+  color: orange;
+}
+header {
+  height: 100px;
+}
+header h1 {
+  float: left;
+  margin-top: 32px;
+}
+header nav {
+  margin-top: 50px;
+  position: absolute;
+  left: 70%;
+  float: right;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+/*  MAIN IMAGE */
+#main-image {
+  background: url(./images/main1.jpg) no-repeat center;
+  height: 580px;
+  background-size: cover;
+}
+#main-image h2 {
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 150px 0 40px 0;
+  margin-bottom: 20px;
+}
+.button-1 {
+  display: block;
+  background-color: orange;
+  width: 100px;
+  height: 50px;
+  border-radius: 13px;
+  text-align: center;
+  margin: 0 auto;
+  color: aliceblue;
+  font-size: 18px;
+  line-height: 50px;
+}
+.button-1:hover {
+  background: rgb(39, 199, 199);
+}
+
+
+/* STEPS */
+#steps ul {
+  margin: 80px 0;
+}
+#steps ul li {
+  width: 300px;
+  float: left;
+  padding-top: 140px;
+  text-align: center;
+  margin-right: 10px;
+}
+#steps h4{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+#steps p{
+    margin-bottom: 20px;
+}
+#step-1{
+    background: url(images/steps-icon-1.png) no-repeat top center;
+}
+#step-2{
+    background: url(images/steps-icon-2.png) no-repeat top center;
+}
+#step-3{
+    background: url(images/steps-icon-3.png) no-repeat top center;
+}
+
+
+/* POSSIBILITIES */
+#possibilities{
+  background-color: rgba(237, 237, 237, 0.9);
+  padding: 50px ;
+}
+#possibilities article{
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-align: center;
+  background-position-x: right;
+  margin: auto 12px;
+  border-radius: 13px;
+  padding: auto;
+}
+.overlay{
+  float: left;
+  background-color: rgba(255, 255, 255, 0.907);
+  width: calc(35% );
+  padding: 35px 15px ;
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+}
+.overlay h4{
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  border-bottom: solid rgba(225, 225, 225, 0.808) ;
+}
+small{
+  font-style: italic;
+}
+.button-2{
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  background-color: rgb(255, 167, 3);
+  color: aliceblue;
+  font-size: 20px;
+  border-radius: 5px;
+  line-height: 40px;
+}
+.button-2:hover{
+  background-color: rgb(39, 199, 199);
+}
+
+/*  contact  */
+
+#contact h3{
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border-bottom:  3px solid rgb(101, 204, 245);
+  text-transform: uppercase;
+  width: 400px;
+}
+#contact p{
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+form{
+  text-align: center;
+  color: #777;
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 50px;
+}
+form label{
+  margin: 10px;
+}
+#name, #email{
+  border: none;
+  border-bottom: 2px solid red;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: large;
+}
+.button-3{
+  display: inline-block;
+  margin: 0 15px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  text-align: center;
+  background-color: rgb(3, 209, 255);
+  color: aliceblue;
+  font-weight: 800;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.button-3:hover{
+background-color: aqua;
+}
+footer{
+  display: block;
+  background-color: rgb(63, 63, 63);
+  margin: auto;
+  text-align: center;
+  padding: 100px;
+}
+footer h1{
+color: aliceblue;
+}
+.copyright{
+  color: #777;
+  padding-top: 30px;
+  font-weight: 600;
+}
